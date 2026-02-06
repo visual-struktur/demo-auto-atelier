@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AUTO ATELIER — Premium Fahrzeugpflege</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">AUTO ATELIER</div>
+
+    <!-- Mobile toggle -->
+    <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">
+      Menü
+    </button>
+
+    <ul class="nav-links" id="navMenu">
+      <li><a href="#services">LEISTUNGEN</a></li>
+      <li><a href="#werkstatt">WERKSTATT</a></li>
+      <li><a href="#about">ÜBER UNS</a></li>
+      <li><a href="#contact">KONTAKT</a></li>
+    </ul>
+  </nav>
+
+  <!-- Demo / Präsentation Banner (Visual Struktur) -->
+  <div class="demo-badge" role="note" aria-label="Demo Hinweis">
+    <span class="demo-dot" aria-hidden="true"></span>
+    <span class="demo-text">
+      Demo-Website (Präsentation) — erstellt für Visual Struktur.
+      <a class="demo-link" href="https://visual-struktur.github.io/visual-struktur/" target="_blank" rel="noopener">
+        Mehr über Visual Struktur
+      </a>
+    </span>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>AUTO ATELIER</h1>
+      <div class="subtitle">PREMIUM FAHRZEUGPFLEGE</div>
+      <div class="tagline">Die Kunst der Perfektion in jedem Detail</div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true"></div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <h2 class="section-title">UNSERE LEISTUNGEN</h2>
+    <p class="section-subtitle">Individuelle Betreuung für jedes Fahrzeug</p>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">✦</div>
+        <h3 class="service-name">Premium Detailing</h3>
+        <p class="service-description">
+          Umfassende Behandlung von Karosserie, Innenraum und Motor mit Premium-Kosmetik.
+          Wiederherstellung des ursprünglichen Glanzes.
+        </p>
+        <div class="service-price"><span class="price-from">ab</span>250 €</div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">◆</div>
+        <h3 class="service-name">Schutzbeschichtungen</h3>
+        <p class="service-description">
+          Premium-Keramik- und Polymerbeschichtungen. Langanhaltender Schutz des Lackes vor äußeren Einflüssen.
+        </p>
+        <div class="service-price"><span class="price-from">ab</span>350 €</div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">◈</div>
+        <h3 class="service-name">Lackpolitur</h3>
+        <p class="service-description">
+          Professionelle abrasive und finale Politur. Beseitigung von Kratzern, Hologrammen und Lackdefekten.
+        </p>
+        <div class="service-price"><span class="price-from">ab</span>180 €</div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">❖</div>
+        <h3 class="service-name">Innenraumreinigung</h3>
+        <p class="service-description">
+          Tiefenreinigung aller Innenraumelemente. Entfernung von Flecken und Gerüchen, Materialauffrischung mit
+          professioneller Ausrüstung.
+        </p>
+        <div class="service-price"><span class="price-from">ab</span>120 €</div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">✧</div>
+        <h3 class="service-name">Steinschlagschutz</h3>
+        <p class="service-description">
+          Installation von Premium-Schutzfolien an den empfindlichsten Karosserieteilen. Unsichtbarer Schutz vor
+          Steinschlägen und Kratzern.
+        </p>
+        <div class="service-price"><span class="price-from">ab</span>280 €</div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">✦</div>
+        <h3 class="service-name">Lederaufbereitung</h3>
+        <p class="service-description">
+          Professionelle Restaurierung von Lederelementen im Innenraum. Beseitigung von Abnutzungen, Kratzern,
+          Farb- und Strukturwiederherstellung.
+        </p>
+        <div class="service-price"><span class="price-from">ab</span>150 €</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Werkstatt (Photos) -->
+  <section class="gallery" id="werkstatt">
+    <h2 class="section-title">WERKSTATT</h2>
+    <p class="section-subtitle">Moderne Umgebung · Präzise Prozesse · Saubere Ausführung</p>
+
+    <div class="gallery-grid">
+      <figure class="gallery-card reveal">
+        <img
+          src="images/autowerkstat.jpg"
+          alt="Premium Werkstatt – Fahrzeug im Studio-Licht"
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          <div class="cap-title">Premium Bay</div>
+          <div class="cap-text">Perfekte Lichtführung für Kontrolle & Finish.</div>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-card reveal">
+        <img
+          src="images/diagnostik.jpg"
+          alt="Diagnostik – digitales Interface und Fahrzeugprüfung"
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          <div class="cap-title">Diagnostik</div>
+          <div class="cap-text">Strukturiert, sauber, nachvollziehbar.</div>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-card reveal">
+        <img
+          src="images/reparatur.jpg"
+          alt="Werkbank mit Werkzeug – Reparatur und Detailarbeit"
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          <div class="cap-title">Detailarbeit</div>
+          <div class="cap-text">Präzision im Handwerk – jedes Teil zählt.</div>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-card reveal">
+        <img
+          src="images/werkstat-inspektion.jpg"
+          alt="Inspektion – Fahrzeug in der Werkstatt mit offener Haube"
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          <div class="cap-title">Inspektion</div>
+          <div class="cap-text">Kontrolle, Pflege, Schutz – im Premium-Standard.</div>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>ÜBER UNS</h2>
+        <p>
+          AUTO ATELIER ist ein Premium-Zentrum für Fahrzeugpflege, wo jedes Detail zählt.
+          Wir verbinden traditionelle Handwerkskunst mit modernsten Detailing-Technologien.
+        </p>
+        <p>
+          Unser Team besteht aus zertifizierten Spezialisten mit langjähriger Erfahrung in der Arbeit mit Fahrzeugen im
+          Premium- und Luxussegment. Wir verwenden ausschließlich professionelle Kosmetik und Ausrüstung führender Hersteller.
+        </p>
+        <p>
+          Für uns ist jedes Fahrzeug ein Kunstwerk, das besondere Aufmerksamkeit und Pflege verdient.
+          Wir bieten nicht einfach nur Dienstleistungen an – wir schaffen Perfektion.
+        </p>
+
+        <div class="stats">
+          <div class="stat reveal">
+            <span class="stat-number">8+</span>
+            <span class="stat-label">Jahre Erfahrung</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat-number">2000+</span>
+            <span class="stat-label">Zufriedene Kunden</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Qualitätsgarantie</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-image" aria-hidden="true">
+        <div class="about-image-placeholder"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Contact -->
+  <footer id="contact">
+    <div class="contact-info">
+      <h3>KONTAKTIEREN SIE UNS</h3>
+
+      <div class="contact-details">
+        <div class="contact-item">
+          <strong>Telefon:</strong><br>
+          <a href="tel:+4951112345678">+49 (511) 123-456-78</a>
+        </div>
+
+        <div class="contact-item">
+          <strong>E-Mail:</strong><br>
+          <a href="mailto:info@autoatelier.de">info@autoatelier.de</a>
+        </div>
+
+        <div class="contact-item">
+          <strong>Adresse:</strong><br>
+          Musterstraße 1<br>30159 Hannover
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      © 2025 AUTO ATELIER. Alle Rechte vorbehalten.
+      <br>
+      <span style="color: rgba(138,138,138,.9);">
+        Demo-Website (Präsentation) — erstellt für Visual Struktur.
+      </span>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/main.js" defer></script>
+
+</body>
+</html>

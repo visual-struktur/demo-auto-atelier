@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AUTO ATELIER — Premium Fahrzeugpflege</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">AUTO ATELIER</div>
+
+    <!-- Mobile toggle -->
+    <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">
+      Menü
+    </button>
+
+    <ul class="nav-links" id="navMenu">
+      <li><a href="#services">LEISTUNGEN</a></li>
+      <li><a href="#werkstatt">WERKSTATT</a></li>
+      <li><a href="#about">ÜBER UNS</a></li>
+      <li><a href="#contact">KONTAKT</a></li>
+    </ul>
+  </nav>
+
+  <!-- Demo / Präsentation Banner (Visual Struktur) -->
+  <div class="demo-badge" role="note" aria-label="Demo Hinweis">
+    <span class="demo-dot" aria-hidden="true"></span>
+    <span class="demo-text">
+      Demo-Website (Präsentation) — erstellt für Visual Struktur.
+      <a class="demo-link" href="https://visual-struktur.github.io/visual-struktur/" target="_blank" rel="noopener">
+        Mehr über Visual Struktur
+      </a>
+    </span>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>AUTO ATELIER</h1>
+      <div class="subtitle">PREMIUM FAHRZEUGPFLEGE</div>
+      <div class="tagline">Die Kunst der Perfektion in jedem Detail</div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true"></div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <h2 class="section-title">UNSERE LEISTUNGEN</h2>
+    <p class="section-subtitle">Individuelle Betreuung für jedes Fahrzeug</p>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">✦</div>
+        <h3 class="service-name">Premium Detailing</h3>
+        <p class="service-description">
+          Umfassende Behandlung von Karosserie, Innenraum und Motor mit Premium-Kosmetik.
+          Wiederherstellung des ursprünglichen Glanzes.
+        </p>
+        <div class="service-price"><span class="price-from">ab</span>250 €</div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">◆</div>
+        <h3 class="service-name">Schutzbeschichtungen</h3>
+        <p class="service-description">
+          Premium-Keramik- und Polymerbeschichtungen. Langanhaltender Schutz des Lackes vor äußeren Einflüssen.
+        </p>
+        <div class="service-price"><span class="price-from">ab</span>350 €</div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">◈</div>
+        <h3 class="service-name">Lackpolitur</h3>
+        <p class="service-description">
+          Professionelle abrasive und finale Politur. Beseitigung von Kratzern, Hologrammen und Lackdefekten.
+        </p>
+        <div class="service-price"><span class="price-from">ab</span>180 €</div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">❖</div>
+        <h3 class="service-name">Innenraumreinigung</h3>
+        <p class="service-description">
+          Tiefenreinigung aller Innenraumelemente. Entfernung von Flecken und Gerüchen, Materialauffrischung mit
+          professioneller Ausrüstung.
+        </p>
+        <div class="service-price"><span class="price-from">ab</span>120 €</div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">✧</div>
+        <h3 class="service-name">Steinschlagschutz</h3>
+        <p class="service-description">
+          Installation von Premium-Schutzfolien an den empfindlichsten Karosserieteilen. Unsichtbarer Schutz vor
+          Steinschlägen und Kratzern.
+        </p>
+        <div class="service-price"><span class="price-from">ab</span>280 €</div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-icon">✦</div>
+        <h3 class="service-name">Lederaufbereitung</h3>
+        <p class="service-description">
+          Professionelle Restaurierung von Lederelementen im Innenraum. Beseitigung von Abnutzungen, Kratzern,
+          Farb- und Strukturwiederherstellung.
+        </p>
+        <div class="service-price"><span class="price-from">ab</span>150 €</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Werkstatt (Photos) -->
+  <section class="gallery" id="werkstatt">
+    <h2 class="section-title">WERKSTATT</h2>
+    <p class="section-subtitle">Moderne Umgebung · Präzise Prozesse · Saubere Ausführung</p>
+
+    <div class="gallery-grid">
+      <figure class="gallery-card reveal">
+        <img
+          src="images/autowerkstat.jpg"
+          alt="Premium Werkstatt – Fahrzeug im Studio-Licht"
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          <div class="cap-title">Premium Bay</div>
+          <div class="cap-text">Perfekte Lichtführung für Kontrolle & Finish.</div>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-card reveal">
+        <img
+          src="images/diagnostik.jpg"
+          alt="Diagnostik – digitales Interface und Fahrzeugprüfung"
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          <div class="cap-title">Diagnostik</div>
+          <div class="cap-text">Strukturiert, sauber, nachvollziehbar.</div>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-card reveal">
+        <img
+          src="images/reparatur.jpg"
+          alt="Werkbank mit Werkzeug – Reparatur und Detailarbeit"
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          <div class="cap-title">Detailarbeit</div>
+          <div class="cap-text">Präzision im Handwerk – jedes Teil zählt.</div>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-card reveal">
+        <img
+          src="images/werkstat-inspektion.jpg"
+          alt="Inspektion – Fahrzeug in der Werkstatt mit offener Haube"
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          <div class="cap-title">Inspektion</div>
+          <div class="cap-text">Kontrolle, Pflege, Schutz – im Premium-Standard.</div>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>ÜBER UNS</h2>
+        <p>
+          AUTO ATELIER ist ein Premium-Zentrum für Fahrzeugpflege, wo jedes Detail zählt.
+          Wir verbinden traditionelle Handwerkskunst mit modernsten Detailing-Technologien.
+        </p>
+        <p>
+          Unser Team besteht aus zertifizierten Spezialisten mit langjähriger Erfahrung in der Arbeit mit Fahrzeugen im
+          Premium- und Luxussegment. Wir verwenden ausschließlich professionelle Kosmetik und Ausrüstung führender Hersteller.
+        </p>
+        <p>
+          Für uns ist jedes Fahrzeug ein Kunstwerk, das besondere Aufmerksamkeit und Pflege verdient.
+          Wir bieten nicht einfach nur Dienstleistungen an – wir schaffen Perfektion.
+        </p>
+
+        <div class="stats">
+          <div class="stat reveal">
+            <span class="stat-number">8+</span>
+            <span class="stat-label">Jahre Erfahrung</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat-number">2000+</span>
+            <span class="stat-label">Zufriedene Kunden</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Qualitätsgarantie</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-image" aria-hidden="true">
+        <div class="about-image-placeholder"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Contact -->
+  <footer id="contact">
+    <div class="contact-info">
+      <h3>KONTAKTIEREN SIE UNS</h3>
+
+      <div class="contact-details">
+        <div class="contact-item">
+          <strong>Telefon:</strong><br>
+          <a href="tel:+4951112345678">+49 (511) 123-456-78</a>
+        </div>
+
+        <div class="contact-item">
+          <strong>E-Mail:</strong><br>
+          <a href="mailto:info@autoatelier.de">info@autoatelier.de</a>
+        </div>
+
+        <div class="contact-item">
+          <strong>Adresse:</strong><br>
+          Musterstraße 1<br>30159 Hannover
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      © 2025 AUTO ATELIER. Alle Rechte vorbehalten.
+      <br>
+      <span style="color: rgba(138,138,138,.9);">
+        Demo-Website (Präsentation) — erstellt für Visual Struktur.
+      </span>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="main.js" defer></script>
+
+  <!-- Page-only CSS additions for Gallery + Demo Badge (keep if you don't want to touch styles.css) -->
+  <style>
+    /* --- DEMO BADGE (если у тебя уже есть в styles.css — этот блок можно удалить) --- */
+    .demo-badge{
+      position: fixed;
+      top: 92px;
+      right: 18px;
+      z-index: 1200;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      max-width: min(420px, calc(100vw - 36px));
+      padding: 10px 14px;
+      border: 1px solid rgba(201,169,97,.22);
+      background: rgba(10,10,10,.62);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 16px 40px rgba(0,0,0,.35);
+      color: rgba(232,232,232,.92);
+      font-size: 1.02rem;
+      letter-spacing: .02em;
+    }
+    .demo-dot{
+      width: 8px; height: 8px;
+      border-radius: 999px;
+      background: var(--color-accent);
+      box-shadow: 0 0 0 4px rgba(201,169,97,.14);
+      flex: 0 0 auto;
+    }
+    .demo-text{ line-height: 1.35; }
+    .demo-link{
+      margin-left: 8px;
+      color: var(--color-accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(201,169,97,.35);
+      transition: border-color .25s ease, color .25s ease;
+    }
+    .demo-link:hover{
+      color: #e7d3a2;
+      border-bottom-color: rgba(201,169,97,.7);
+    }
+    @media (max-width: 768px){
+      .demo-badge{
+        top: 78px;
+        right: 12px;
+        left: 12px;
+        max-width: none;
+        font-size: .98rem;
+      }
+    }
+
+    /* --- GALLERY / WERKSTATT (можно перенести в styles.css) --- */
+    .gallery{
+      padding: 10rem 4rem;
+      background: var(--color-bg);
+      position: relative;
+    }
+
+    .gallery-grid{
+      max-width: 1400px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 1.6rem;
+    }
+
+    .gallery-card{
+      border: 1px solid var(--color-border);
+      background: var(--color-surface);
+      overflow: hidden;
+      position: relative;
+      transition: transform .35s ease, border-color .35s ease, box-shadow .35s ease;
+    }
+
+    .gallery-card:hover{
+      transform: translateY(-4px);
+      border-color: rgba(201,169,97,.38);
+      box-shadow: 0 22px 70px rgba(201,169,97,.08);
+    }
+
+    .gallery-card img{
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      filter: contrast(1.02) saturate(1.02);
+      transform: scale(1.01);
+      transition: transform .6s ease;
+    }
+
+    .gallery-card:hover img{
+      transform: scale(1.04);
+    }
+
+    .gallery-card figcaption{
+      position: absolute;
+      left: 0; right: 0; bottom: 0;
+      padding: 1.2rem 1.2rem 1.1rem;
+      background: linear-gradient(to top, rgba(0,0,0,.78), rgba(0,0,0,.0));
+      color: rgba(232,232,232,.95);
+      display: grid;
+      gap: .35rem;
+    }
+
+    .cap-title{
+      font-family: var(--font-display);
+      letter-spacing: .08em;
+      color: var(--color-accent);
+      font-size: 1.25rem;
+    }
+
+    .cap-text{
+      color: rgba(232,232,232,.78);
+      font-size: 1.05rem;
+      letter-spacing: .02em;
+    }
+
+    /* layout: 2 больших + 2 средних (premium editorial) */
+    .gallery-card:nth-child(1){ grid-column: span 7; min-height: 420px; }
+    .gallery-card:nth-child(2){ grid-column: span 5; min-height: 420px; }
+    .gallery-card:nth-child(3){ grid-column: span 5; min-height: 360px; }
+    .gallery-card:nth-child(4){ grid-column: span 7; min-height: 360px; }
+
+    @media (max-width: 1024px){
+      .gallery{ padding: 8rem 2rem; }
+      .gallery-card:nth-child(1),
+      .gallery-card:nth-child(2),
+      .gallery-card:nth-child(3),
+      .gallery-card:nth-child(4){
+        grid-column: span 12;
+        min-height: 360px;
+      }
+    }
+
+    @media (max-width: 768px){
+      .gallery{ padding: 7rem 1.2rem; }
+      .gallery-card{ min-height: 300px; }
+      .cap-title{ font-size: 1.15rem; }
+      .cap-text{ font-size: 1rem; }
+    }
+  </style>
+</body>
+</html>
